@@ -1,0 +1,37 @@
+/* id selector */
+#p1{                 
+    font-size: 3em;
+    color: aqua;
+}
+/* class selector */
+.p5{
+    font-size: 5em;
+    color:crimson;
+}
+
+/* sibling selector */
+#p1 + .p5 {
+    color: darkblue;
+}
+
+/* Grouping selector */
+#p1,.p5{
+    font-size: 6em;
+}
+.box1{
+    width: 350px;
+    height: 350px;
+    background-color: forestgreen;
+    text-align: center;
+    font-size: 2em;
+    border: 7px dashed gold;
+}
+
+.box2{
+    width: 350px;
+    height: 350px;
+    background-color:tomato;
+    text-align: center;
+    font-size: 2em;
+    border: 7px dotted red;
+}
